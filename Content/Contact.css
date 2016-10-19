@@ -1,0 +1,52 @@
+﻿body{
+
+
+}
+
+   .ContactLayout {
+    margin-top:5px;
+    text-align:center;
+    line-height:3px;
+    height:293px;
+    border: 1px solid black;
+
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-rule: 1px solid black; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid black; /* Firefox */
+    column-rule: 1px solid black;
+
+     -webkit-column-width: 10px; /* Chrome, Safari, Opera */
+    -moz-column-width: 10px; /* Firefox */
+    column-width: 10px;
+    }
+
+   #contactName{
+       font-family:Flamenco;
+       font-size:22px;
+       line-height:25px;
+       margin: 0px auto;
+
+     
+   }
+   #contactTitle{
+       line-height:25px;
+        margin: 0px auto;
+      
+   }
+   #contactPhone{
+       line-height:25px;
+        margin: 0px auto;
+      
+   }
+   #contactEmail{
+       line-height:25px;
+        margin: 0px auto;
+       
+   }
+   #contactSpacer{
+   line-height:10px;
+     
+   }

@@ -1,0 +1,21 @@
+﻿body {
+  width:98%;
+}
+
+
+.blendedImg{
+    margin: 0px 0px 0px 0px;
+    float:left;
+    display:flex;
+    width:45%;
+    height:300px;
+}
+
+#blurb{
+    float:left;
+    width:39%;
+    font-family:Arial;
+    font-style:italic;
+    font-size:36px;
+    word-wrap:initial;
+}

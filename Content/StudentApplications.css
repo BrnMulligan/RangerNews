@@ -1,0 +1,83 @@
+﻿/*** Remember # is for id's . is for class   */
+body{
+    width:98%;
+
+}
+
+#pageHead{
+    /*border:solid 1px red;*/
+    margin-top:1%;
+    margin-bottom:3px;
+    font-size:64px;
+    font-family:Flamenco;
+    font-weight:800;
+    text-align:center;
+
+}
+
+#text{
+  /*  border:solid 1px red;*/
+    display:block;
+    float:left;
+    width:50%;
+    margin: 0% 3% 0% 5%;
+    font-size:30px;
+    font-family:Flamenco;
+    font-style:oblique;
+    line-height:40px;
+    padding: 3px ;
+}
+
+/**************************************** Input Form ************/
+
+#studentForm{
+    /*background-color:rgb(255,246,205);*/
+    background-color:burlywood;
+    /*border:solid 1px red;*/
+    display:block;
+    float:left;
+    margin:10px 10px 10px 2.5%; 
+    width:30%;
+    height:400px;
+    font-size:22px;
+   
+}
+label{
+   
+    margin-left:50px;
+}
+
+/******************* Form Input Settings***************/
+input{
+    color:darkblue;
+    width:50%;
+    height:30px;
+    font-size:22px;
+    margin:5px 10px 5px 5px;
+}
+
+
+ #lastname{
+}
+
+ #emailAddress{
+      margin-left:50px;
+ }
+
+  #subject{
+      margin-left:35px;
+ }
+
+   #message{
+      margin-left:25px;
+ }
+
+
+#appSend{
+    color:black;
+    background-color:darkolivegreen;
+    width:80%;
+    height:70px;
+    margin:5% 10% auto;
+    text-align:center
+}
