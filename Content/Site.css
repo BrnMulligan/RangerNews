@@ -183,6 +183,26 @@ nav {
      color:gray;
  }         
 
+ .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ..............................Footer......................*/
+
  footer{
      text-align:center;
      color:lightgray;
@@ -483,9 +503,9 @@ tr.pager td {
             padding: 0;
         }
 
-        #login a:hover {
-            color: #333;
-        }
+            #login a:hover {
+                color: #333;
+            }
 
     /* menu */
     nav {
@@ -509,7 +529,7 @@ tr.pager td {
     .main-content,
     .featured + .main-content {
         background-position: 10px 0;
-        background-color:#FAEBD7;
+        background-color: #FAEBD7;
     }
 
     .content-wrapper {
@@ -551,12 +571,12 @@ tr.pager td {
                 background: none;
             }
 
-     /* features */
-     section.feature {
+    /* features */
+    section.feature {
         float: none;
         padding: 10px;
         width: auto;
-     }
+    }
 
         section.feature img {
             color: #999;
@@ -600,11 +620,20 @@ tr.pager td {
         text-align: center;
         height: auto;
         padding: 2px 0;
-        background-color:#800000;
+        background-color: #800000;
     }
 
         footer p {
             margin: 0;
-            color:#FAEBD7;
+            color: #FAEBD7;
         }
+
+    /*..................... Media Controls ..................*/
+   audio{
+       background-color:white;
+       display:block;
+       margin: 5px auto;
+       width: 90%;
+   }
+
 }

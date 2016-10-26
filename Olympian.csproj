@@ -186,6 +186,7 @@
     <Content Include="bin\System.Web.WebPages.xml" />
     <Content Include="Content\BlendedMag.css" />
     <Content Include="Content\Contact.css" />
+    <Content Include="Content\Music\Yes\11 Dangerous.mp3" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -275,6 +276,7 @@
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="Content\Radio.css" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Contact.cshtml" />
     <Content Include="About.cshtml" />
@@ -286,7 +288,7 @@
     <Content Include="Account\PasswordReset.cshtml" />
     <Content Include="Account\Register.cshtml" />
     <Content Include="Content\StudentApplications.css" />
-    <Content Include="ShowResult.css" />
+    <Content Include="Content\ShowResult.css" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
