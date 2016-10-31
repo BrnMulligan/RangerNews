@@ -272,6 +272,7 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="Content\Newspaper.css" />
+    <Content Include="Images\RangerRadio\RadioClubBackground.jpg" />
     <Content Include="packages.config" />
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
@@ -322,7 +323,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\RangerRadio\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
@@ -348,6 +348,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ShowResult.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Disclaimer.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RadioRangerModal.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

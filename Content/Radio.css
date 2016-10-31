@@ -1,9 +1,34 @@
 ﻿hgroup{
     margin: 0px 5px;
-    border: 1px solid red;
+    border: 2px solid red;
 
 }
 
 body {
-    margin:0px 5px;
+    margin: 0px 5px;
+    border: 2px solid black;
+    height:1200px;
+    background-image:url('../Images/RangerRadio/RadioClubBackground.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+article {
+     border: 2px solid green;
+}
+
+#RadioPage{
+    margin:0px 10px 0px 10px;
+}
+
+.Button{
+    width:25%;
+    height:15%;
+    margin: 0px 1% auto;  
+    display:inline-block;  
+    text-align:center;
+    font-family:'Flamenco','Bookman Old Style','Chiller' 'Arial'  ;
+    font-size:28px;
+
+
 }

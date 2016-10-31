@@ -1,5 +1,7 @@
 ﻿@{
     Page.Title = "RangerRadio";
+    var strSelected = "";
+    var currentBroadcast = "";
 }
 
 <hgroup class="title">
@@ -8,23 +10,66 @@
 </hgroup>
 <head>
     <title></title>
+    @*.................................................Java script ..............................*@
+
+    <script type="text/javascript">
+
+            function RadioModalCurrent() {
+                alert("Ya! This is the current Broadcast!");
+                @{
+                    currentBroadcast = "~/ Content / Music / Yes / 11 Dangerous.mp3";
+
+                }
+
+                var myText= document.getElementById("test");
+                document.getElementById("test").innerHTML="Hi there!";
+            }
+
+            function RadioModalArchive() {
+                alert("Ya! This is the Archive Broadcast(s)!");
+                 @{
+                    currentBroadcast = "~/ Content / Music / Yes / 11 Dangerous.mp3";
+
+                }
+
+                @*var audio="<audio><source src=@currentBroadcast>YES - Dangerous mp3 </></audio><audio controls="controls"><source src=@currentBroadcast type="audio/mp3">YES - Dangerous mp3</></audio>;
+                document.write(audio);*@
+            }
+
+            function RadioModalSomething() {
+                alert("Ya! This is Something Else!")
+            }
+
+    </script>
+    @*................................................. end script ..............................*@
 </head>
 
-<article>
+
+<article id="RadioPage">
 <p>
     <strong>This is were the meat of my project is located, unless, of course, your veagan. Then everything is a potato.</strong><br/>
     The connection to the Radio Station. Selection of 
     podcasts, events and all those items that the radio club creates.
     The next meeting with the client to review the current work and aquire more data is set for Monday, 10 October. 
 </p>
+    <form>
 <p>Add three buttons to select:</p>
-<p> Play Current Broadcast</p>
-<p> Select Archived Broadcast</p>
-<p> Something Else</p>
+    <button name="Button" id="currentID"  onclick="RadioModalCurrent()" value="current">Current Broadcast</button>
+    <button name="Button" id="archiveID"  onclick="RadioModalArchive()" value="archive">Broadcast Archive</button>
+    <button name="Button" id="somethingID" onclick="RadioModalSomething()" value="something">Something Else</button>
 
-    <p>Put a blurb here about the radio station. </p>
-    <p>
-        The goal of Olympian Radio is to voice the opinions of the Olympic College Culture in an informing and entertaining
+    @*<article id="currentBroadcast">
+    <audio>
+        <source src=@currentBroadcast>YES - Dangerous mp3 </>
+    </audio>
+
+    <audio controls="controls">
+        <source src=@currentBroadcast type="audio/mp3">YES - Dangerous mp3</>
+    </audio>
+</article>*@
+        </form>
+
+    <p>The goal of Olympian Radio is to voice the opinions of the Olympic College Culture in an informing and entertaining
         format.
 
         There is a presentation to the board of trusties from the Olympian on the 16th of November and presently 
@@ -34,3 +79,13 @@
     </p>
     </article>
 
+@*@{
+        if (IsPost)
+        {
+          @:<p><audio><source src=@currentBroadcast>YES - Dangerous mp3></audio>
+          @:<audio controls="controls"><source src=@currentBroadcast type="audio/mp3">YES - Dangerous mp3</audio></p>
+
+        }
+    <h1>POST!</h1>
+    }*@
+<p id="test">This is the test spot</p>
